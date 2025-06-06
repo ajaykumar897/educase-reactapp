@@ -1,0 +1,27 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f2f7;
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  transition: background-color 0.2s ease;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

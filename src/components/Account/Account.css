@@ -1,0 +1,48 @@
+/* src/components/Account/Account.css */
+.account-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.account-card {
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.account-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: purple;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-main-info {
+  margin-top: 10px;
+}
+
+.account-main-info h2 {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.account-email {
+  color: gray;
+}
+
+.account-settings-heading {
+  color: purple;
+  margin-top: 30px;
+}
